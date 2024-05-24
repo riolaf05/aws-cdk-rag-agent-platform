@@ -1,6 +1,24 @@
 
 # Welcome to your CDK Python project!
 
+blablabla
+
+# Prerequisites
+
+1. Install CDK 
+
+```console
+npm install -g aws-cdk
+cdk bootstrap --profile <profile>
+cdk init app --language python --profile <profile>
+py -m venv .venv/rag
+.venv\rag\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+
+# Setup 
+
 This is a blank project for CDK development with Python.
 
 The `cdk.json` file tells the CDK Toolkit how to execute your app.
